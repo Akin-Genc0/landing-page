@@ -45,9 +45,10 @@ nav , .logo {
 
 .content {
     display: flex;
-  
+    
     justify-content: space-around;
     margin-top: 40px;
+   
     
 }
 
@@ -61,8 +62,12 @@ button{
 }
 
 .left{
-    width: 350px;
+    max-width: 350px;
+   flex-shrink: 0;
 }
+
+
+
 
 .hero-img {
 
@@ -74,4 +79,45 @@ height: 300px;
 
 .boxes{
    
+    display: flex;
+    justify-content: center;
+    
+    padding: 0px;
+    gap: 52px;
+    
+}
+
+.box {
+  
+    display: flex;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+    border: solid rgb(116, 116, 116);
+   
+
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    font-size: 2rem;
+}
+
+.text {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: end;
+}
+
+
+.box p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: end;
+    height: 300px;
+    text-align: center;
 }
